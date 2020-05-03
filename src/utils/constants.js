@@ -1,1 +1,1 @@
-export const API_WHO = 'https://api.covid19api.com/summary';
+export const API_COVID = 'https://api.covid19api.com/summary';

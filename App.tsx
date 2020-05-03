@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text } from 'react-native';
 import axios from 'axios';
-import { API_WHO } from './src/utils/constants';
+import { API_COVID } from './src/utils/constants';
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        API_WHO
+        API_COVID
       );
  
       setData(result.data);
@@ -20,7 +20,7 @@ const App = () => {
   }, []);
 
   
-  console.log(data.hits);
+  console.log(data);
 
   
   return (
