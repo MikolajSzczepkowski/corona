@@ -16,6 +16,8 @@ const base = {
   justifyContent: 'center',
 };
 
+const fontSans = 'OpenSans';
+
 export const link = {
   color: Colors.red,
   fontWeight: 'bold',
@@ -25,6 +27,7 @@ export const bodyText = {
   color: Colors.text,
   fontSize: smallFontSize,
   lineHeight: 23,
+  fontFamily: fontSans
 };
 
 export const headerText = {
