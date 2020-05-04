@@ -1,9 +1,9 @@
-export const red = '#FA5252';
-export const green = '#34C360';
+export const red = '#fa5252';
+export const green = '#34c360';
 export const black = '#000000';
 export const white = '#ffffff';
-export const gray = '#F2F6F8';
-export const silver = '#AFB8BE';
+export const gray = '#f2f6f8';
+export const silver = '#afb8be';
 
 export const background = gray;
 export const text = black;
